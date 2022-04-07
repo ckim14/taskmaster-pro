@@ -61,7 +61,7 @@ $(".list-group").on("click", "p", function() {
 
 });
 
-//adding event listener to blur text area when clicked out
+//The blur event happens whenever an element loses focus. adding event listener to save when clicked outside of text area
 $(".list-group").on("blur", "textarea", function() {
 
       // get the textarea's current value/text
